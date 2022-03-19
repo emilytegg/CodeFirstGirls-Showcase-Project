@@ -1,0 +1,13 @@
+.footer_row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0;
+    list-style: none;
+}
+
+.footer_row-item {}
+
+.footer_row-dark {
+    background: rgba(0, 0, 0, 0.7)( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+}

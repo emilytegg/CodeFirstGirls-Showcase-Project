@@ -1,0 +1,48 @@
+.navbar {
+    font-family: 'Shrikhand', cursive;
+    font-size: large;
+}
+
+.bg-light {
+    background-color: mediumseagreen !important;
+    opacity: 0.75;
+}
+
+.navbar-brand {
+    font-size: 28px;
+}
+
+.fa-brands {
+    color: black;
+    font-size: xx-large;
+}
+
+.footer {
+    font-family: 'Shrikhand', cursive;
+}
+
+.bg-dark {
+    background-color: darkseagreen !important;
+    opacity: 0.75;
+}
+
+.font-primary {
+    font-family: 'Shrikhand', cursive;
+}
+
+.font-secondary {
+    font-family: 'Merriweather', serif;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.carousel-caption {
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #440893;
+    opacity: 0.85;
+    border-radius: 20px;
+}
