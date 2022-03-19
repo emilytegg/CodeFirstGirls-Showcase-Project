@@ -1,6 +1,6 @@
 .footer_row {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: row;
     margin: 0;
     list-style: none;
@@ -8,6 +8,7 @@
 
 .footer_row-item {}
 
-.footer_row-dark {
-    background: rgba(0, 0, 0, 0.7)( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+.footer_row-icon {
+    margin-left: 1.25em;
+    margin-right: 1.25em;
 }

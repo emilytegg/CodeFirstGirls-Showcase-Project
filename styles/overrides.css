@@ -3,6 +3,10 @@
     font-size: large;
 }
 
+.navbar-toggler {
+    border: 0;
+}
+
 .bg-light {
     background-color: mediumseagreen !important;
     opacity: 0.75;
@@ -42,7 +46,17 @@
     max-width: 25em;
     margin-left: auto;
     margin-right: auto;
-    background-color: #440893;
-    opacity: 0.85;
+    background-color: #ffc98b;
+    opacity: 0.95;
     border-radius: 20px;
+    color: black
+}
+
+.card {
+    box-shadow: 5px 10px #e47ca4;
+}
+
+.border-bottom-primary {
+    border-bottom: 5px solid #e47ca4 !important;
+    border-radius: 0;
 }
