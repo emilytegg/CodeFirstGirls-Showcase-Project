@@ -60,3 +60,9 @@
     border-bottom: 5px solid #e47ca4 !important;
     border-radius: 0;
 }
+
+.wavy-underline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffc98b;
+}
