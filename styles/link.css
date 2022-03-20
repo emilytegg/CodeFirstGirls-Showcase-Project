@@ -1,0 +1,20 @@
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #3A7E9F;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 0.1em;
+}
+
+a:active {
+    text-decoration: wavy;
+}
