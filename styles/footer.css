@@ -1,3 +1,7 @@
+.footer {
+    font-family: 'Shrikhand', cursive;
+}
+
 .footer_row {
     display: flex;
     justify-content: center;

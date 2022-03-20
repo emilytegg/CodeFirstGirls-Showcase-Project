@@ -20,6 +20,10 @@
 
     <link rel="stylesheet" href="./styles/overrides.css">
     <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/restaurants.css">
+    <link rel="stylesheet" href="./styles/typography.css">
+    <link rel="stylesheet" href="./styles/card.css">
+    <link rel="stylesheet" href="./styles/background.css">
 
     <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -59,26 +63,130 @@
     </nav>
 
 
-    <main role="main" class="flex-fill font-secondary">
-
-        <div class="container">
-            <p>content</p>
+    <main role="main" class="flex-fill font-secondary pb-3 bg-yellow">
+        <div class="jumbotron border-bottom-primary">
+            <h1 class="display-4 font-primary wavy-underline">Restaurants</h1>
+            <p class="lead mt-4"> Hand-picked restaurants and takeaways that celebrate your requirements. </p>
+            <p> (For any specific allergens, please contact the restaurant directly <i class="fa-solid fa-exclamation mr-1"></i>)</p>
         </div>
+
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card card-large">
+                        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/e1/4e/3b/inside.jpg?w=800&h=600&s=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">Mighty Weiners</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> 100% Vegan + vegetarian friendly </li>
+                                <li> <i class="fa-solid fa-circle-check"></i> Gluten free options</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in, take out, takeaway </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Dog friendly when you eat in! <i class="fa-solid fa-paw"></i></li>
+                            </ul>
+                            <a href="https://deliveroo.co.uk/menu/bournemouth/bournemouth-town-centre/mighty-wieners-bournemouth" target="_blank"> Order here <i class="fa-solid fa-truck ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4 ">
+                    <div class="card card-large">
+                        <img src="https://www.bournemouthecho.co.uk/resources/images/13318035/?type=responsive-gallery" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">Baboo Ji Vegetarian Kitchen</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> 100% Vegetarian with Vegan options </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in, take out, takeaway </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Enquire for gluten free options</li>
+                                <li><i class="fa-solid fa-circle-check"></i> A Bournemouth & Southampton location</li>
+                            </ul>
+                            <a href="https://deliveroo.co.uk/menu/bournemouth/boscombe/baboo-ji-vegetarian-kitchen-bournemouth?geohash=gcn8tdqmbxby" target="_blank"> Order here (Bournemouth)<i class="fa-solid fa-truck ml-2"></i> </a>
+                            <a href="https://deliveroo.co.uk/menu/southampton/highfield/baboo-ji-vegetarian-kitchen?geohash=gcp1872qhqtg" target="_blank"> Order here (Southampton)<i class="fa-solid fa-truck ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card card-large">
+                        <img src="https://cdn.sanity.io/images/czqk28jt/prod_bk_gb/d997e428f821bf25d0610556efcac564a79f3215-1600x1600.jpg?w=750&q=40&fit=max&auto=format" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">Burger King</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> Great fast-food Vegan and plant-based options </li>
+                                <li> <i class="fa-solid fa-circle-check"></i> Great prices + offers on their app </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in, take out, takeaway </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Personally recommend the Plant Based Whopper + Katsu Vegan Royale <i class="fa-solid fa-face-grin-hearts"></i> </li>
+                            </ul>
+                            <a href="https://www.burgerking.co.uk/store-locator" target="_blank"> Order here <i class="fa-solid fa-truck ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-large">
+                        <img src="https://i2-prod.bristolpost.co.uk/incoming/article5706158.ece/ALTERNATES/s615/0_Photo-17-05-2021-11-07-45.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">Twelve Eatery</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> 100% Vegan + vegetatian friendly </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in, take out, takeaway </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Gluten free options</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Organic drinks and wines</li>
+                            </ul>
+                            <a href="https://twelveeatery.com/reservations/" target="_blank"> Book a table<i class="fa-solid fa-utensils ml-2"></i> </a>
+                            <a href="https://deliveroo.co.uk/menu/bournemouth/bournemouth-town-centre/twelve-eatery" target="_blank"> Order here<i class="fa-solid fa-truck ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mb-4">
+                    <div class="card card-large">
+                        <img src="https://images.happycow.net/venues/1024/15/33/hcmp153317_841204.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">Plant Hustler</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> 100% Vegan + vegetarian friendly </li>
+                                <li> <i class="fa-solid fa-circle-check"></i> Gluten and Allergen free options </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in + order by phone </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Dog friendly when you eat in! <i class="fa-solid fa-paw ml-2"></i> </li>
+
+                            </ul>
+                            <a href="https://planthustler.com/" target="_blank"> Visit their site <i class="fa-solid fa-phone ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card card-large">
+                        <img src="https://eu-assets.simpleview-europe.com/bournemouth/imageresizer/?image=%2Fdmsimgs%2FBournemouth-7-bone-burger-co_1__256768805.jpg&action=ProductDetail" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="wavy-underline">7Bone</h5>
+                            <ul>
+                                <li><i class="fa-solid fa-circle-check"></i> 9 Vegan burgers + sides to try </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Eat in, click + collect, takeaway </li>
+                                <li><i class="fa-solid fa-circle-check"></i> Multiple UK locations</li>
+
+                            </ul>
+                            <a href="https://menus.preoday.com/7Bone-Burger-Co#/main/choose-branch" target="_blank"> Click + collect<i class="fa-solid fa-utensils ml-2"></i> </a>
+                            <a href="https://deliveroo.co.uk/menu/bournemouth/bournemouth-town-centre/7bone-bournemouth" target="_blank"> Order here (Bournemouth)<i class="fa-solid fa-truck ml-2"></i> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </main>
 
     <footer class="footer mt-auto py-3 bg-light">
         <div class="container">
             <ul class="footer_row">
                 <li class="footer_row-item">
-                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook footer_row-icon"></i> </a>
                 </li>
                 <li class="footer_row-item">
                     <a href="https://www.instagram.com/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i> </a>
+                        <i class="fa-brands fa-instagram footer_row-icon"></i> </a>
                 </li>
                 <li class="footer_row-item>">
                     <a href="https://twitter.com/?lang=en" target="_blank">
-                        <i class="fa-brands fa-twitter"></i></a>
+                        <i class="fa-brands fa-twitter footer_row-icon"></i></a>
                 </li>
             </ul>
         </div>

@@ -1,0 +1,31 @@
+.font-primary {
+    font-family: 'Shrikhand', cursive;
+}
+
+.font-secondary {
+    font-family: 'Merriweather', serif;
+}
+
+.border-bottom-primary {
+    border-bottom: 5px solid #e47ca4 !important;
+    border-radius: 0;
+}
+
+.wavy-underline {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: #ffc98b;
+    text-underline-offset: 0.1em;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+@media (max-width: 768px) {
+    .display-4 {
+        text-align: center;
+        font-size: 3rem;
+    }
+}

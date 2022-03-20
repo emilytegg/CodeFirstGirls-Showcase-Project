@@ -1,0 +1,28 @@
+.card {
+    box-shadow: 5px 10px #e47ca4;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.card-body>ul>li {
+    list-style: none;
+}
+
+.card-large>img {
+    max-height: 306px;
+    object-fit: cover;
+}
+
+.card-large {
+    height: 100%;
+}
+
+.card-body>:is(h5, a) {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.card-body {
+    background-color: #e9ecef;
+}
